@@ -1,0 +1,43 @@
+# Environment configuration
+.env
+
+# Service account keys and sensitive files
+# Exclude ALL JSON files in keys directory for maximum security
+keys/*.json
+keys/*-real.json
+keys/*-production.json
+keys/*-live.json
+*.key
+*.pem
+
+# Additional protection patterns for common real credential file names
+keys/**/real-*.json
+keys/**/*-credentials.json
+
+# Vendor directories (if using composer install instead of zip)
+vendor/
+
+# Log files
+*.log
+
+# PHPMailer (if using composer install instead of zip)
+phpmailer/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp

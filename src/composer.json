@@ -1,0 +1,7 @@
+{
+    "require": {
+        "google/apiclient": "^2.15.0",
+        "google/apiclient-services": "^0.396.0",
+        "google/cloud-monitoring": "^1.7"
+    }
+}
